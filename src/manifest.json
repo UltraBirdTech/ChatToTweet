@@ -3,18 +3,10 @@
     "name": "Chat To Tweet",
     "short_name": "ChatToTweet",
     "version": "0.0.1",
-    "default_locale": "ja_JP",
     "description": "This is a expand tool for Goolgle Chrome. When typed to text box, same text posted to tweet too.",
     "icons": {},
-    "browser_action": {
-        "default_icon": {
-            "10":""
-        },
-        "default_title": "ChatToTweet",
-        "default_popup": "popup.html"
-    },
     "content_scripts": [{
-        "matches": ["http://", "https://"],
+        "matches": ["http://127.0.0.1/*"],
         "js": [
             "main.js"
         ]
