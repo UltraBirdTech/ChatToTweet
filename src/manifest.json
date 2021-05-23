@@ -4,7 +4,11 @@
     "short_name": "ChatToTweet",
     "version": "0.0.1",
     "description": "This is a expand tool for Goolgle Chrome. When typed to text box, same text posted to tweet too.",
-    "icons": {},
+    "icons": {
+        "16": "ChatToTweet.png",
+        "48": "ChatToTweet.png",
+        "128": "ChatToTweet.png"
+    },
     "content_scripts": [{
         "matches": ["http://127.0.0.1/*"],
         "js": [
