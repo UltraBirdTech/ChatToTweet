@@ -7,6 +7,7 @@
     "description": "This is a expand tool for Goolgle Chrome. When typed to text box, same text posted to tweet too.",
     "icons": {},
     "content_scripts": [{
+        "matches": ["http://", "https://"],
         "js": [
             "main.js"
         ]
