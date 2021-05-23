@@ -6,6 +6,13 @@
     "default_locale": "ja_JP",
     "description": "This is a expand tool for Goolgle Chrome. When typed to text box, same text posted to tweet too.",
     "icons": {},
+    "browser_action": {
+        "default_icon": {
+            "10":""
+        },
+        "default_title": "ChatToTweet",
+        "default_popup": "popup.html"
+    },
     "content_scripts": [{
         "matches": ["http://", "https://"],
         "js": [
