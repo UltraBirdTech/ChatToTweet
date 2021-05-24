@@ -1,7 +1,8 @@
 # ChatToTweet
 Chat to Tweet
 
-![icon]("https://user-images.githubusercontent.com/9333418/119282294-189b6f00-bc74-11eb-9ec9-9f4f48a52c1c.png")
+<img width="368" alt="ChatToTweet" src="https://user-images.githubusercontent.com/9333418/119282370-6a43f980-bc74-11eb-80a2-34a476a63f31.png">
+
 
 ## Description
 This is a expand tool for Google Chrome.
