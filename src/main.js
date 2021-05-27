@@ -36,5 +36,6 @@ function checkSite() {
 let site = checkSite();
 console.log(site.name);
 
-//let button = document.getElementById('');
-//button.onclick = ButtonClick('function JavaScript!!!');
+var button_id = site.button_id;
+let button = document.getElementById(button_id);
+button.onclick = ButtonClick('function JavaScript!!!');
