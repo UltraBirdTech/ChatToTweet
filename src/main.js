@@ -34,7 +34,7 @@ function checkSite() {
 }
 
 let site = checkSite();
-console.log(site.name);
+//console.log(site.name);
 
 //let button = document.getElementById('');
 //button.onclick = ButtonClick('function JavaScript!!!');
