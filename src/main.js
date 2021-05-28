@@ -34,7 +34,7 @@ function checkSite() {
 }
 
 let site = checkSite();
-console.log(site.name);
+//console.log(site.name);
 
 var button_id = site.button_id;
 let button = document.getElementById(button_id);

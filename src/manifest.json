@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Chat To Tweet",
     "short_name": "ChatToTweet",
     "version": "0.0.1",
@@ -14,5 +14,9 @@
         "js": [
             "main.js"
         ]
-    }]
+    }],
+    "browser_action": {
+        "default_title": "DRMaker",
+        "default_popup": "popup.html"
+    }
 }
