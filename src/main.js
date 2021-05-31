@@ -19,6 +19,14 @@ class Discord {
     }
 }
 
+class NoneTargetSite {
+     constructor(){
+        this.name = 'None';
+        this.button_id = '';
+        this.text_box_id = '';
+    }
+}   
+
 // add some class.
 
 function checkSite() {
@@ -26,10 +34,10 @@ function checkSite() {
     var hostname = location.hostname;
     console.log(hostname);
     if(hostname == 'www.youtube.com') {
-        console.log('This is YouTube')
-        return YouTube()
+        console.log('This is YouTube');
+        return YouTube();
     } else {
-        console.log('対応していません')
+        return NoneTargetSite();
     }
 }
 
