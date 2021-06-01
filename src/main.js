@@ -35,15 +35,20 @@ function checkSite() {
     console.log(hostname);
     if(hostname == 'www.youtube.com') {
         console.log('This is YouTube');
-        return YouTube();
+        return new YouTube()
     } else {
-        return NoneTargetSite();
+        console.log('対応していません');
+        return new NonMatchClass();
     }
 }
 
 let site = checkSite();
-//console.log(site.name);
+console.log(site.name);
 
-var button_id = site.button_id;
-let button = document.getElementById(button_id);
-button.onclick = ButtonClick('function JavaScript!!!');
+var site_name = document.getElementById('aaaa');
+console.log(site_name);
+site_name.innerText = site.name;
+
+// var button_id = site.button_id;
+// let button = document.getElementById(button_id);
+// button.onclick = ButtonClick('function JavaScript!!!');
