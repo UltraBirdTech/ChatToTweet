@@ -19,13 +19,13 @@ class Discord {
     }
 }
 
-class NonMatchClass {
-    constructor(){
-        this.name = 'NotMatch';
+class NoneTargetSite {
+     constructor(){
+        this.name = 'None';
         this.button_id = '';
         this.text_box_id = '';
     }
-}
+}   
 
 // add some class.
 
